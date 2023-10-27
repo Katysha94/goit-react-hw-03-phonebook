@@ -1,0 +1,21 @@
+.contactList {
+    list-style: none;
+    padding: 0;
+}
+
+.contactList li {
+    position: relative;
+    padding-left: 40px;
+}
+
+.contactList li::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: #a0a0a0;;
+
+}

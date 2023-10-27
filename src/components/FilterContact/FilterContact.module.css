@@ -1,0 +1,13 @@
+.filterLabel {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 40px;
+}
+
+.filterInput {
+    border-color: #a0a0a0;;
+    width: 280px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

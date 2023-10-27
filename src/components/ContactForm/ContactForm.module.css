@@ -1,0 +1,40 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   padding: 40px;
+}
+
+
+.contactFormLabel {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 40px;
+ }
+
+
+.contactFormInput {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    border: none; 
+    border-bottom: 1px solid #a0a0a0; 
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.contactFormBtn {
+    background-color: #a0a0a0;
+    border: none;
+    border-radius: 10px;
+    display: inline-flex;
+    align-self: center;
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.contactFormBtn:hover,
+.contactFormBtn:focus {
+background-color: rgb(11, 160, 11);
+}
